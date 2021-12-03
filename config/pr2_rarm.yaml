@@ -1,5 +1,6 @@
 project_path: ~/.kyozi
-image_topic: /kinect_head/rgb/image_color
+#image_topic: /kinect_head/rgb/image_color
+image_topic: /head_camera_remote/rgb/image_color
 depth_image_topic: #/kinect_head/depth_registered/image
 joint_states_topic: /joint_states
 control_joint_names: [
@@ -47,8 +48,8 @@ init_joint_angles: [
     1.2
 ]
 image_config: 
-    x_min: 150
+    x_min: 200
     x_max: 400
-    y_min: 100
-    y_max: 600
+    y_min: 200
+    y_max: 500
     resolution: 224
